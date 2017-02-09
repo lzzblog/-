@@ -1,0 +1,379 @@
+/*ÂÞ¼¼G502Êó±ê B*/
+.shop{
+    height: 590px;
+    background: #F2F2F2;
+}
+.shop .nav{
+    height: 44px;
+    padding-left: 5px;
+}
+.shop .nav h3{
+    font: 900 20px/44px "Î¢ÈíÑÅºÚ";
+    color: #666666;
+    padding-right: 10px;
+}
+.shop .nav span{
+    font:100 14px/44px "Î¢ÈíÑÅºÚ";
+}
+.shop .nav span a{
+    padding-right: 10px;
+}
+.shop .content{
+    height: 545px;
+    background: #ffffff;
+}
+.shop .content .tu{
+    width: 378px;
+}
+
+.shop .content .tu img{
+    height: 354px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.shop .content .tu .lan{
+    padding:10px 36px ;
+}
+.change{
+    height: 60px;
+}
+.shop .content .tu .lan img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding-right: 10px;
+}
+/*.shop .content .tu .lan img:hover{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #C81623;
+    margin: 0;
+    padding-right: 10px;
+}*/
+.shop .bianhao{
+    height: 40px;
+    font:100 14px/40px "Î¢ÈíÑÅºÚ";
+
+}
+.bianhao .share{
+    position: relative;
+}
+.bianhao i{
+    position: absolute;
+    top:15px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: url("../img/newicon20140910.png") -162px -296px;
+}
+.bianhao em{
+    position: absolute;
+    top:15px;
+    left: 50px;
+    float: left;
+    width: 14px;
+    height: 12px;
+    background: url("../img/newicon20140910.png") -177px -296px;
+}
+.bianhao span{
+    padding:0 10px;
+}
+.jieshao{
+    width: 590px;
+    height: 543px;
+}
+.top .fl{
+    width: 590px;
+    padding-bottom: 5px;
+}
+.jieshao h3{
+    float: left;
+    padding-top: 18px;
+    font: 900 18px "Î¢ÈíÑÅºÚ";
+}
+.jieshao p{
+    float: left;
+    font: 100 14px/18px "Î¢ÈíÑÅºÚ";
+}
+.jieshao button{
+    width: 56px;
+    height: 24px;
+    background: #F5F5F5;
+    margin-top: 18px;
+    margin-right: 1px;
+    border: 1px solid #DDDDDD;
+    color: #666666;
+}
+.jiage{
+    height: 114px;
+    background-color:#F7F7F7 ;
+    padding-left: 10px;
+
+}
+.money{
+    font: 100 12px/50px "Î¢ÈíÑÅºÚ";
+}
+.money .fl{
+    width: 504px;
+}
+.money .bd{
+    float: right;
+    width: 1px;
+    height: 32px;
+    background-color: #dfdfdf;
+    margin-top: 12px;
+}
+.money .fl span{
+    float: left;
+}
+.money .f20{
+    font-weight: 900;
+    font-size: 20px;
+}
+.money .fr{
+    padding-top: 18px;
+    line-height: 12px;
+    padding-right: 16px;
+}
+.money .fr span{
+    font: 400 12px "Î¢ÈíÑÅºÚ";
+    color: #666;
+}
+.money .fr .blue{
+    color:#005EA7;
+}
+.cuxiao{
+    line-height: 32px;
+    width: 488px;
+}
+.cuxiao span{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.cuxiao .bg-red{
+    background-color: #C81623;
+    color: #ffffff;
+    font-weight: 900;
+    padding-right: 2px;
+}
+.jiage .cuxiao p{
+    padding-top: 6px;
+    width: 425px;
+    float: left;
+}
+.serve{
+    height: 105px;
+    border-bottom: 1px dotted #666;
+    font: 12px/35px "Î¢ÈíÑÅºÚ";
+    padding-left: 10px;
+
+}
+.serve .support{
+    height: 37px;
+}
+.support b{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    padding:0 10px;
+}
+ select {
+    border: 1px solid #CCCCCC;
+     padding-right: 7px;
+     color: #666666;
+     height: 27px;
+}
+.f16{
+    font-weight: 900;
+    font-size: 16px;
+}
+.houqi{
+    height: 145px;
+    line-height: 48px;
+    padding-left:10px ;
+}
+.houqi b{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/newicon20140910.png") -133px -293px;
+    vertical-align: middle;
+}
+.houqi button{
+    border: 1px solid #CCCCCC;
+    padding-right: 7px;
+    color: #666666;
+    height: 27px;
+    background-color: #fff;
+    vertical-align: baseline;
+    margin-right: 4px;
+}
+.baitiao button{
+    font-size: 10px;
+    width: 86px;
+}
+.tianjia{
+    padding-left: 10px;
+}
+.tianjia button{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-right: 0;
+}
+.jiajian{
+    float: left;
+    padding-top: 18px;
+    padding-right: 20px;
+
+}
+.jia{
+    width: 15px;
+    height: 15px;
+    background: url("../img/newicon20140910.png") -232px -190px;
+}
+.jian{
+    width: 15px;
+    height: 15px;
+    background: url("../img/newicon20140910.png") -216px -190px;
+}
+.tianjia b{
+    width: 135px;
+    height: 36px;
+    float: left;
+    background: url("../img/sprite-btns.png");
+    margin-top: 16px;
+}
+.jieshao .tishi {
+    padding-left: 10px;
+    line-height: 66px;
+     font-size: 12px;
+}
+.right{
+    padding: 21px;
+}
+.right .top{
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+.right img{
+    padding-left: 10px;
+}
+.title{
+    font-weight: 900;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+.title span{
+    font-size: 14px;
+    color: #005AA0;
+}
+.title p{
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    line-height: 19px;
+    height: 19px;
+    width: 54px;
+    border-radius: 2px;
+    background-color:#E4393C;
+    margin-top: 14px;
+    text-align: center;
+}
+.lianjie .top{
+    height: 42px;
+    border: 0;
+}
+.lianjie .top button{
+    width: 90px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    background-color: #F9F9F9;
+    color: #666;
+}
+.lianjie i{
+    width: 16px;
+    height: 16px;
+    padding-right: 17px;
+}
+.i1{
+    background: url("../img/sprite-score.png") -52px -1px;
+}
+.i2{
+    width: 17px;
+    height: 18px;
+    background: url("../img/sprite-score.png") -130px 0px;
+}
+.i3{
+    background: url("../img/sprite-score.png") -104px -1px;
+}
+.i4{
+    background: url("../img/sprite-score.png") -78px -1px;
+}
+.right .bottom{
+    height: 60px;
+    line-height: 30px;
+}
+.right .bottom p{
+    font-size: 12px;
+    color: #666666;
+}
+.right .bottom  .hb{
+    color: #6A77B6;
+}
+.hb img{
+    width: 16px;
+    height: 16px;
+    padding-right: 3px;
+}
+/*ÂÞ¼¼G502Êó±ê E*/
+/*ÏêÇé B*/
+.detail{
+    margin-top:10px ;
+    height: 267px;
+    border: 1px solid #DDDDDD;
+    border-top-color: #666 ;
+}
+.detail h3{
+    line-height: 30px;
+    background-color: #F7F7F7;
+    border-top-color: #ddd ;
+    border-bottom:1px solid #ddd ;
+
+}
+h3 span{
+    font: 700 16px "Î¢ÈíÑÅºÚ";
+    padding: 0 10px ;
+    color: #666;
+}
+.box{
+    padding: 0 35px;
+    width: 127px;
+}
+.box .top {
+    width: 197px;
+    height: 162px;
+    line-height: 162px;
+}
+.box .bottom{
+    padding-top: 12px;
+}
+.box .bottom p{
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+}
+.bl{
+    font-weight: 700;
+}
+/*ÏêÇé E*/

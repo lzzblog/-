@@ -1,0 +1,261 @@
+/*中间部分 B*/
+.nav{
+    border-bottom: 2px solid #B1191A;
+}
+.categories{
+    background-color: #B1191A;
+    height: 44px;
+    width: 210px;
+    float: left;
+    position: relative;
+    z-index: 1;
+
+}
+.cate-dt a{
+    width: 200px;
+    height: 44px;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    padding-left: 10px;
+    display: block;
+}
+.cate-dd{
+    width: 209px;
+    margin-top: 2px;
+    background-color: #C81623;
+    border-left: 1px solid #B61D1D;
+    border-bottom: 1px solid #c81623;
+    /*display: none;*/
+    display: block;
+}
+.cate-item {
+    height: 31px;
+    padding-left: 10px;
+    position: relative;
+}
+.cate-item:hover{
+    background-color: #f7f7f7;
+}
+.cate-item h3 a:hover{
+    color:#B61D1D ;
+}
+.cate-item a{
+    display:block;
+    height: 31px;
+    color: rgb(255, 255, 255);
+    font: 400 14px/31px 微软雅黑;
+}
+.cate-item i{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font: 400 9px/14px consolas;
+    color: #FFF;
+}
+.navitems{
+    float: left;
+    width: 725px;
+    height: 44px;
+}
+.navitems li{
+    float: left;
+    position: relative;
+}
+.navitems a{
+    padding: 0 10px;
+    font: 400 15px/44px "microsoft yahei";
+    color: #333;
+}
+.navitems a:hover{
+    color: #B1191A;
+}
+.navitems i{
+    width: 36px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    background: url(../img/coupon.jpg);
+}
+
+.treasure{
+    width: 200px;
+    height: 44px;
+    float: right;
+}
+.treasure a{
+    width: 200px;
+    height: 54px;
+    display: block;
+    position: relative;
+    top: -10px;
+    background: url("../img/treasure2.jpg") no-repeat;
+}
+/*中间部分 E*/
+
+/*背景 B*/
+.bg-banner{
+    position: relative;
+}
+.bg-banner a{
+    width: 100%;
+    height: 644px;
+    background: url("../img/bg-banner.jpg") no-repeat top center;
+    position: absolute;
+}
+/*背景 E*/
+
+/*主体部分 B*/
+.slider{
+    width: 730px;
+    height: 454px;
+    margin-left: 220px;
+    margin-top: 12px;
+    float: left;
+    background-color: skyblue;
+    position: relative;
+}
+.slider img{
+    width: 730px;
+    height: 454px;
+}
+.slider .circle{
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    margin-left: -66px;
+}
+.slider li{
+    width: 18px;
+    height: 18px;
+    background: #3e3e3e;
+    float: left;
+    border-radius: 9px;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    /*cursor: pointer;*/
+}
+.slider .current{
+    background:#B61B1F;
+}
+.today{
+    position: relative;
+}
+.today .arrow a,
+.slider .arrow a{
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    font: 400 22px/62px simsun;
+    color: #FFF;
+    text-align: center;
+}
+.today .arrow-l,
+.slider .arrow-l{
+    left: 0;
+}
+.today .arrow-r,
+.slider .arrow-r{
+    right: 0;
+}
+.main-extra{
+    width: 250px;
+    height: 454px;
+    float: right;
+    margin-top: 12px;
+    position: relative;
+}
+.news{
+    width: 248px;
+    height: 163px;
+    border: 1px solid #e4e4e4;
+}
+.lifserv{
+    width: 248px;
+    height: 208px;
+    border: 1px solid #E4E4E4;
+    border-top: none;
+    overflow: hidden;
+}
+.lifserv ul{
+    width: 252px;
+}
+.lifserv li{
+    border-right: 1px solid #e8e8e7;
+    border-bottom: 1px solid #e8e8e7;
+    float: left;
+    position: relative;
+}
+.lifserv a{
+    width: 62px;
+    height: 28px;
+    display: block;
+    padding-top: 42px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+}
+.lifserv i{
+    width: 25px;
+    height: 25px;
+    /*background: url("../img/lifserv.png") no-repeat 0 0 ;*/
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+.right-pic{
+    margin-top: 5px;
+}
+.news .mt{
+    width: 218px;
+    height: 32px;
+    border-bottom: 1px dotted #e8e8e7;
+    padding: 0 15px;
+}
+.news .mt h2{
+    font: 400 16px/32px "microsoft yahei";
+    float: left;
+}
+.news .mt a {
+    float: right;
+    line-height: 32px;
+    font-family: consolas;
+}
+
+.news .mc{
+    padding: 6px 0 0 15px;
+}
+.news .mc li{
+    line-height: 24px;
+}
+.news .mc span{
+    font-weight: 700;
+    margin-top: 5px;
+}
+.today{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.today .mt{
+    float: left;
+}
+.today .mc{
+    width: 1000px;
+    height: 164px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.today .mc ul{
+    width: 6666px;
+}
+.today .mc li{
+    float: left;
+    margin-right: 1px;
+}
+/*主体部分 E*/
